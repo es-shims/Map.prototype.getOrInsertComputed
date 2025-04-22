@@ -1,0 +1,37 @@
+{
+	"name": "map.prototype.getorinsertcomputed",
+	"version": "0.0.0",
+	"description": "ES Proposal spec-compliant shim for Map.prototype.getOrInsertComputed",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/Map.prototype.getOrInsertComputed.git"
+	},
+	"keywords": [
+		"javascript",
+		"ecmascript",
+		"polyfill",
+		"shim",
+		"es-shims",
+		"API",
+		"map",
+		"upsert",
+		"getorinsert",
+		"insert",
+		"get",
+		"computed"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/Map.prototype.getOrInsertComputed/issues"
+	},
+	"homepage": "https://github.com/es-shims/Map.prototype.getOrInsertComputed#readme"
+}
