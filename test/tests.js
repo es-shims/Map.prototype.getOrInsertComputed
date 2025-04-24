@@ -49,7 +49,6 @@ module.exports = function (getOrInsertComputed, t) {
 		st.ok(m.has(key), 'still has key');
 
 		st.deepEqual(spy.calls, [
-			{ args: [key], receiver: undefined, returned: sentinel },
 			{ args: [key], receiver: undefined, returned: sentinel }
 		]);
 
