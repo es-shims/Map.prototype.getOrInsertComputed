@@ -1,6 +1,6 @@
 {
 	"name": "map.prototype.getorinsertcomputed",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "ES Proposal spec-compliant shim for Map.prototype.getOrInsertComputed",
 	"main": "index.js",
 	"exports": {
