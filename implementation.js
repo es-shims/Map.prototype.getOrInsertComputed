@@ -30,7 +30,7 @@ module.exports = function getOrInsertComputed(key, callbackfn) {
 		return $mapGet(M, key); // step 5.a
 	}
 
-	var value = Call(callbackfn, undefined, [key]); // step 6
+	var value = Call(callbackfn, void undefined, [key]); // step 6
 
 	$mapSet(M, key, value); // steps 8 - 10
 
