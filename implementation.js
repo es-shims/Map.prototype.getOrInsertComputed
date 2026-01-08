@@ -3,9 +3,9 @@
 var callBind = require('call-bind');
 var $TypeError = require('es-errors/type');
 
-var Call = require('es-abstract/2024/Call');
+var Call = require('es-abstract/2025/Call');
 var CanonicalizeKeyedCollectionKey = require('./aos/CanonicalizeKeyedCollectionKey');
-var IsCallable = require('es-abstract/2024/IsCallable');
+var IsCallable = require('es-abstract/2025/IsCallable');
 
 var $Map = require('es-map/polyfill')();
 
